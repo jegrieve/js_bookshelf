@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Library</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1 id = "title">My Library</h1>
-    <ul id = "bookshelf"></ul>
-    <button id = "new-btn">NEW BOOK</button>
-    <form id = "add-form" hidden = true>
-        <input id = "title-input" type = "text" placeholder = "book title">
-        <input id = "author-input" type = "author" placeholder = "author">
-        <input id = "pages-input" type = "number" placeholder = "pages" min="1" >
-        <input id = "read-input" type = "checkbox">Read
-        <button id = "submit-btn">Add to Library</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">My Library</h1>
+    <ul id="bookshelf"></ul>
+    <button id="add-btn">NEW BOOK</button>
+    <form id="add-form" hidden>
+      <input id="title-input" type="text" placeholder="Title" />
+      <input id="author-input" type="author" placeholder="Author" />
+      <input id="pages-input" type="number" placeholder="Pages" min="1" />
+      <input id="read-input" type="checkbox" />Read?
+      <button id="submit-btn" type="submit">Add to Library</button>
     </form>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
